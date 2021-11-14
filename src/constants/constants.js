@@ -10,6 +10,16 @@ export const projects = [
         id: 0,
     },
     {
+        title: "Next Firebase Blog",
+        description:
+            "A simple Blog made with Next and Firebase using Server Side Rendering, Static Site Generator and Incremental Static Regeneration",
+        image: "/images/techblog.png",
+        tags: ["Next", "React", "Firebase", "react-firebase-hooks"],
+        source: "https://github.com/MeDali-Amor/techblog.git",
+        visit: "https://techblog-ebon.vercel.app/",
+        id: 1,
+    },
+    {
         title: "Airbnb Clone",
         description:
             "Using Next, and Tailwind CSS i replicated the landing page of Airbnb.",
@@ -17,18 +27,9 @@ export const projects = [
         tags: ["React", "Next.js", "Tailwind"],
         source: "https://github.com/MeDali-Amor/airbnb-clone.git",
         visit: "https://airbnb-clone-chi-topaz.vercel.app/",
-        id: 1,
-    },
-    {
-        title: "Photo Gallery App",
-        description:
-            "A simple image uploading app made with React and Firebase, and some animations with Framer Motion",
-        image: "/images/photo-share.png",
-        tags: ["React", "Firebase", "Framer Motion"],
-        source: "https://github.com/MeDali-Amor/photo-galery-app.git",
-        visit: "https://photo-share-b76a7.web.app/",
         id: 2,
     },
+
     {
         title: "Loopstudios Landing Page",
         description: "A fully responsive Landing page with React and CSS",
